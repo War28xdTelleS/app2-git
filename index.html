@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos de Alumno</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<script src="phonegap.js"></script>
+
+</head>
+<body>
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-add-back-text="Regresar" data-add-back-theme="a">
+   <h1>Datos Personales del Alumno</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>Foto del Perfil</h1>
+    <div>
+      <p> Esta es mi imagen de perfil:</p>
+      <br>
+      </div>
+      <div>
+       <img src="imagenes/yo.jpg" width="50%" height="50%">
+       </div>
+      </div>
+     </div>
+     <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Datos Generales</h2>
+          <p>Jose Eduardo Telles Guerrero </p>
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Fecha de Nacimiento </h2>
+         <p>07 de junio de 2001 </p>
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Domicilio</h2>
+         <p>Segunda Calle de Miguel Hidalgo #15</p>
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Deporte Favorito</h2>
+         <p>volleyball</p>
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Otros Gustos e Intereses</h2>
+         <p>Me gusta salir... leer noticias y ver videconferencias de mi interes... y me gusta MUCHO escuchar MUsica REGGAE(roots y rock) , cultura rastafari </p>
+       </a>
+     </li>
+    </ul>
+   </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+  </div>
+  <div>
+     <h4> Aplicacion Dos</h4>
+     <h4> Jose Eduardo Telles Guerrero</h4>
+  </div>
+ </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Nombre</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Telles Guerrero Jose Eduardo</h2>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+    <h4> Aplicacion Dos, JETG</h4>
+   </div>
+  </div>
+ 
+  <div data-role="page" id="Pagina2" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Fecha de nacimiento</h1>
+     </div>
+    <div data-role="content"  align="center">
+     <div>
+        <h2>07 de junio de 2001</h2></div>
+       </div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+       <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+       <h4> Aplicacion Dos, JETG</h4>
+    </div>
+    </div>
+    
+    <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Domicilio</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Segunda Calle de Miguel Hidalgo #15</h2>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+    <h4> Aplicacion Dos, JETG</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Deporte Favorito</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>volleyball</h2>
+     <img src="imagenes/volley.jpg" width="50%" height="50%">
+   </div>
+  </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+    <h4> Aplicacion Dos, JETG</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Gustos e Intereses</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Otros Gustos e Intereses</h2>
+         <p>Me gusta salir... leer noticias y ver videconferencias de mi interes... y me gusta MUCHO escuchar MUsica REGGAE(roots y rock) , cultura rastafari</h2>
+     <img src="imagenes/rastafari.jpg" width="50%" height="50%">
+   </div>
+  </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+    <h4> Aplicacion Dos, JETG</h4>
+   </div>
+  </div>
+</body>
+</html>
